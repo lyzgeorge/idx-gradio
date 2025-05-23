@@ -2,6 +2,8 @@
 
 Welcome! This is a minimal template for running a **Gradio web app** inside [Google Firebase Studio](https://firebase.google.com/docs/studio).
 
+![img](https://github.com/user-attachments/assets/dc9d8b67-9c60-432b-b23d-bd2aa286bed2)
+
 ---
 
 ## ⚙️ Setup Instructions
