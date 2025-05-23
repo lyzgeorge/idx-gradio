@@ -16,7 +16,6 @@
       };
     };
 
-    
     previews = {
       enable = true;
       previews = {
