@@ -1,18 +1,22 @@
-# 🚀 Gradio App on Google IDX
+# 🚀 Gradio App on Google Firebase Studio
 
-Welcome! This is a minimal template for running a **Gradio web app** inside [Google Firebase Studio (IDX)](https://firebase.google.com/docs/studio).
+Welcome! This is a minimal template for running a **Gradio web app** inside [Google Firebase Studio](https://firebase.google.com/docs/studio).
 
 ---
 
 ## ⚙️ Setup Instructions
 
-When you open this project in Google IDX:
+When you open this project in Google Firebase Studio:
 
-1. IDX will automatically set up the environment:
+1. Click "Import repo" and enter the URL of this repository.
+
+> https://github.com/lyzgeorge/idx-gradio
+
+2. It will automatically set up the environment:
    - Create a Python virtual environment (`.venv`)
    - Install dependencies from `requirements.txt`
 
-2. It will launch a **preview tab** showing your Gradio web app.
+3. It will launch a **preview tab** showing your Gradio web app.
 
 ---
 
