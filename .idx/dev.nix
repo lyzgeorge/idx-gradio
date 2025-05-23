@@ -7,15 +7,12 @@
   ];
   
   idx = {
-    extensions = [ "ms-python.python"  "ms-python.debugpy"];
+    extensions = [ "ms-python.python" ];
 
     workspace = {
       onCreate = {
         install = "uv venv .venv && source .venv/bin/activate && uv pip install -r requirements.txt gradio";
         default.openFiles = [ "README.md" "app.py" ];
-      };
-      onStart = {
-        activate = "source .venv/bin/activate";
       };
     };
 
