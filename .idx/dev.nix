@@ -2,16 +2,15 @@
   channel = "stable-24.05";
 
   packages = [
-    pkgs.python311
-    pkgs.uv
+    pkgs.python3
   ];
   
   idx = {
-    extensions = [ "ms-python.python" ];
+    extensions = [ "ms-python.python"  "ms-python.debugpy"];
 
     workspace = {
       onCreate = {
-        install = "uv venv .venv && source .venv/bin/activate && uv pip install -r requirements.txt gradio";
+        install = "python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt";
         default.openFiles = [ "README.md" "app.py" ];
       };
     };
